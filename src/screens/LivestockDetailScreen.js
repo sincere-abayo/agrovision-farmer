@@ -4,7 +4,7 @@ import { Card, Title, Paragraph, Button, Divider, Text, Chip, List } from 'react
 import { Ionicons } from '@expo/vector-icons';
 
 const LivestockDetailScreen = ({ route, navigation }) => {
-  // In a real app, you would fetch this data from a database
+  // In a real app, we would fetch this data from a database
   // For now, we'll use the data passed from the navigation params or mock data
   const livestock = route.params?.livestock || {
     id: 1,
